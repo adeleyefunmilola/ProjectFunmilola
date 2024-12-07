@@ -1,0 +1,56 @@
+p {
+    border: solid;
+    margin: 2rem;
+    padding: 2rem;
+    font-size: larger;
+    background-color: aqua;
+}    
+
+.three{
+    background-color: red(0, 0, 0);
+}
+.two{
+    background-color: brown;
+}
+.one{
+    background-color: green(0, 0, 0);
+
+}
+@media (max-width:1200px){
+    .three{
+        background-color: green
+    }
+    .two{
+        background-color: aqua;
+    }
+    .one{
+        background-color: blue;
+
+    }
+}
+@media (max-width:800px) {
+    .three{
+        background-color: blueviolet;
+    }
+    .two{
+        background-color: brown;
+    }
+    .one{
+        background-color: blue;
+
+    }
+     
+    
+}
+@media (max-width:400px) {
+    .three{
+        background-color: lightcoral
+    }
+    .two{
+        background-color: brown;
+    }
+    .one{
+        background-color: yellowgreen;
+
+    }
+}
